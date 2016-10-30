@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:latest
 ENTRYPOINT ["sh"]
 
 RUN apk update && apk add bind-tools net-tools curl
